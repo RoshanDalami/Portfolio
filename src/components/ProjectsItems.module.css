@@ -1,0 +1,32 @@
+.text{
+    color: rgb(237, 237, 237);
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 3px;
+    cursor: pointer;  
+}
+
+.horLine{
+    width: 20%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-top : 20px;
+}
+
+.box{
+    border: 1px solid rgb(255, 0, 191);
+    width: 50%;
+    padding: 20px 20px;
+    border-radius: 30px;
+    margin: 50px auto;  
+}
+.projectTitle{
+    color: rgba(255, 255, 255, 0.537);
+    text-decoration: none;
+    
+}
+.title{
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+}

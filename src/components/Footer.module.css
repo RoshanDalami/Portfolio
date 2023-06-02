@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    background: rgba(230, 88, 185, 0.319);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9.5px);
+    -webkit-backdrop-filter: blur(9.5px);
+    border: 1px solid rgba(255, 0, 132, 0.7);
+    margin-top:10%;
+    height: 5vh;
+    width: 100%;
+    justify-content: space-between; 
+    justify-items: center;   
+}
+
+.text{
+    padding-left: 50px;
+    padding-top:10px;
+    font-size:20px ;
+    color: rgba(255, 255, 255, 0.606);
+ 
+}
+.socialLink{
+    margin-right: 50px;
+    text-align: center;
+    
+    width: 30%;
+}
+.iconWrapper{
+    padding-right: 30px;
+}
+.icons{
+    color:#fff;
+    font-size: 30px;
+    padding-top:10px;
+    
+
+    
+}

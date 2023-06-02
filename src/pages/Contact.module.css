@@ -1,0 +1,52 @@
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 320px;
+    flex-wrap: wrap;
+    
+}
+.languageContainer{
+    margin: 20px;
+
+}
+
+.items{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    width: 100px;
+    height: 100px;
+}
+.items:hover{
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+    transform: scale(1.2);
+}
+.tooltip{
+    
+    
+}
+.text{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 3px;
+    
+    
+    /* border: 5px solid red; */
+    
+    
+}
+
+.horLine{
+    width: 20%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    margin-top : 20px;
+}
