@@ -30,3 +30,10 @@
     font-size: 30px;
     text-align: center;
 }
+@media (max-width: 767px) {
+    .box{
+        width: 300px;
+        height: 200px;
+        border-radius: 8px;
+    }
+}

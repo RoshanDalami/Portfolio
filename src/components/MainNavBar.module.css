@@ -12,12 +12,14 @@
   -webkit-backdrop-filter: blur(9.5px);
   border: 1px solid rgba(255, 0, 132, 0.7);
 }
+
 .itemWrapper {
   padding: 10px 10px;
   display: flex;
   justify-content: space-between;
   margin: 0 5px;
 }
+
 .item {
   padding: 7px 17px;
   color: white;
@@ -30,5 +32,25 @@
 .item:hover,
 a.active {
   background-color: #ffffff4f;
-   border-radius: 30px;
+  border-radius: 30px;
+}
+
+/* Media Query for mobile devices */
+@media (max-width: 767px) {
+  .wrapper {
+    width: 90%;
+    height: 13vh;
+  }
+
+  .itemWrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0;
+  }
+
+  .item {
+    margin: 5px;
+    width: calc(50% - 10px);
+    text-align: center;
+  }
 }
