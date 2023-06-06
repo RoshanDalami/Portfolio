@@ -5,12 +5,12 @@
   margin: 30px auto;
   border-radius: 25px;
   /* From https://css.glass */
-  background: rgba(230, 88, 185, 0.319);
+  background: #c90f56c7;
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(9.5px);
   -webkit-backdrop-filter: blur(9.5px);
-  border: 1px solid rgba(255, 0, 132, 0.7);
+  border: 1px solid rgba(255, 0, 0, 0.7);
 }
 
 .itemWrapper {
@@ -39,7 +39,7 @@ a.active {
 @media (max-width: 767px) {
   .wrapper {
     width: 90%;
-    height: 13vh;
+    height: 15vh;
   }
 
   .itemWrapper {
@@ -52,5 +52,6 @@ a.active {
     margin: 5px;
     width: calc(50% - 10px);
     text-align: center;
+    font-size: 15px;
   }
 }

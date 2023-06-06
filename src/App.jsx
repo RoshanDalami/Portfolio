@@ -5,7 +5,7 @@ import Aboutus from "./pages/Aboutus";
 import Projects from "./pages/Projects";
 import Error from "./pages/Error";
 import Root from "./pages/Root";
-import ParticalsBackground from "./components/ParticalsBackground";
+
 
 
 import "./App.css";

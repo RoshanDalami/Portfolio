@@ -56,19 +56,6 @@ import {
                   <TimelineDot color="secondary" variant="outlined" />
                   <TimelineConnector />
                 </TimelineSeparator>
-                <Tooltip title={'Certificate Provided By Udemy.com for Completing Complete React Course'} className={classes.tooltip} arrow={true}>
-                <TimelineContent >
-                  {" "}
-                  <img src={ReactCertificate} className={classes.image} alt="" />
-                </TimelineContent>
-                </Tooltip>
-               
-              </TimelineItem>
-              <TimelineItem>
-                <TimelineSeparator>
-                  <TimelineDot color="secondary" variant="outlined" />
-                  <TimelineConnector />
-                </TimelineSeparator>
                 <Tooltip title={'Certificate Provided by Hackerrank.com for completing Python Basic Challange'} className={classes.tooltip} arrow={true}>
                 <TimelineContent >
                   {" "}
@@ -77,6 +64,19 @@ import {
                 </Tooltip>
                 
               </TimelineItem>
+              <TimelineItem>
+                <TimelineSeparator>
+                  <TimelineDot color="secondary" variant="outlined" />
+                  <TimelineConnector />
+                </TimelineSeparator>
+                <Tooltip title={'Certificate Provided By Udemy.com for Completing Complete React Course'} className={classes.tooltip} arrow={true}>
+                <TimelineContent >
+                  {" "}
+                  <img src={ReactCertificate} className={classes.image} alt="" />
+                </TimelineContent>
+                </Tooltip>
+              </TimelineItem>
+              
             </Timeline>
             </>
          
