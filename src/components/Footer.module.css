@@ -1,17 +1,19 @@
 .container {
     display: flex;
-    background: rgba(230, 88, 185, 0.319);
+    background: #C90F56;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(9.5px);
     -webkit-backdrop-filter: blur(9.5px);
-    border: 1px solid rgba(255, 0, 132, 0.7);
-    margin-top: 10%;
+    /* border: 1px solid rgba(255, 0, 132, 0.7); */
+    
     height: 5vh;
     width: 100%;
     justify-content: space-between;
     justify-items: center;
   }
-  
+  .mainContainer{
+    width: 66.5%;
+  }
   .text {
     padding-left: 50px;
     padding-top: 10px;
@@ -34,6 +36,7 @@
     font-size: 30px;
     padding-top: 10px;
   }
+ 
   
   /* Media Query for mobile devices */
   @media (max-width: 767px) {
