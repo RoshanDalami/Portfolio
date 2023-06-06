@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import classes from './MainNavBar.module.css';
-import Curves from "./Curves";
+
 const MainNavBar = () => {
   return (
     <>

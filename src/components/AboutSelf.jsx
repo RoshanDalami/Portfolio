@@ -1,5 +1,6 @@
 import classes from "./AboutSelf.module.css";
 import SelfImage from "../assets/bamya2ndLot.jpg";
+import { motion } from "framer-motion";
 const AboutSelf = () => {
   const Info = [
     {
@@ -9,10 +10,10 @@ const AboutSelf = () => {
   ];
   return (
     <>
-      <div className={classes.text}>
+      <motion.div className={classes.text} initial={{x:'100vh'}} animate={{x:0}} transition={{type:'spring',stiffness:120}}>
         <h1>What About Me ?!</h1>
         <hr className={classes.horLine} />
-      </div>
+      </motion.div>
       <div className={classes.wrapper}>
         {Info.map((info) => {
           return (
