@@ -8,7 +8,7 @@ const HomePage = () => {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Developer","Enginer"],
+      strings: ["Developer","Engineer"],
       typeSpeed: 150,
       backSpeed: 150,
       loop: true,
@@ -25,7 +25,7 @@ const HomePage = () => {
         <motion.div className={classes.textArea} initial={{y:-600}} animate={{y: 0}} transition={{ type:'spring', stiffness:120}}>
           <h4 style={{ color: "white", fontSize: 30 }}>Hello !</h4>
           <h1 style={{ color: "white" }}>
-            <span style={{ fontSize: 150 }}>I</span> 'm{" "}
+            <span style={{ fontSize: 150 }}>I</span>{"'m "}
             <span
               style={{ color: "#FFE7A0" }}
               

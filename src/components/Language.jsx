@@ -7,11 +7,13 @@ import PYTHON from "../assets/python.svg";
 import REACT from "../assets/react.svg";
 import FIREBASE from "../assets/firebase.svg";
 import { Tooltip } from "@mui/material";
+  import { nanoid } from "nanoid";
 const Language = () => {
   const LanguageIcons = [
     {
       image: Nodejs,
       title: "NodeJS",
+      
     },
     {
       image: HTML,
@@ -50,7 +52,7 @@ const Language = () => {
         {LanguageIcons.map((icon) => {
           return (
             
-              <div className={classes.languageContainer}>
+              <div className={classes.languageContainer} key={nanoid()} >
                 <Tooltip arrow={true} title={icon.title} className={classes.tooltip}>
                   <img src={icon.image} alt="" className={classes.items} />
                 </Tooltip>

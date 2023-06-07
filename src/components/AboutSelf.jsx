@@ -25,7 +25,7 @@ const AboutSelf = () => {
       </div>
       <div className={classes.introText}>
         <h1 className={classes.nameText}>
-          <i> "ROSHAN DALAMI" </i>
+          <i>{"ROSHAN DALAMI"}</i>
         </h1>
         <p className={classes.infoText}>
         Tech Enthusiast. Just Completed B.E Computer Science and Engineering. Passionate Web Developer. Currently exploring different technologies. Learning How to built world a better place with Code 
